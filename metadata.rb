@@ -1,0 +1,7 @@
+name 'blacksquarelabs-openssh'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures blacksquarelabs-openssh'
+long_description 'Installs/Configures blacksquarelabs-openssh'
+version '0.1.0'
