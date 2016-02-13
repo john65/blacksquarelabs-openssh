@@ -1,4 +1,4 @@
 # blacksquarelabs-openssh
 
-TODO: Enter the cookbook description here.
+Wrapper cookbook for openssh
 
