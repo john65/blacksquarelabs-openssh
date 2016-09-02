@@ -5,8 +5,9 @@
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 include_recipe 'openssh'
 
-if node['hostname'] == 'delphine'
+case node['hostname']
+when 'delphine', 'valentine'
 	service 'sshd' do
-  		action :stop
+                action :stop
         end
 end
